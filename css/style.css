@@ -30,10 +30,10 @@ a:hover {
 }
 
 .ot-btn {
-    padding: 12px 40px;
+    padding: 11px 40px;
     font-size: 15px;
     color: #E34C25;
-    border: 1px solid;
+    border: 1px solid #E34C25;
     border-radius: 18px;
     overflow: hidden;
     transition: linear .5s;
@@ -43,7 +43,7 @@ a:hover {
     color: #fff;
     background: #E34C25;
     transition: linear .5s;
-    padding: 12px 60px;
+    padding: 11px 60px;
 }
 
 .ot-btn-fill {}
@@ -53,6 +53,7 @@ a:hover {
 .ot-btn-outline {
     color: #E34C25;
     background: #fff;
+    border: 1px solid #fff;
 }
 
 .ot-btn-outline:hover {}

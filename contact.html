@@ -24,7 +24,6 @@
     <!-- UIkit 3.3.1 -->
     <link rel="stylesheet" href="css/uikit.min.css">
     <!-- theme stylesheet -->
-    <link rel="stylesheet" href="css/toggler.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
@@ -32,15 +31,105 @@
 
 <body>
     <!-- navigation bar start from here -->
+    <div class="top-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <p>Email: <a href="mailto:mahin0w1@gmail.com">mahin0w1@gmail.com</a> Mobile: <a
+                            href="tel:+8801798366057">+8801798366057</a></p>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="social-top">
+                        <ul>
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg secondary-nav"
+        uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="far fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Partners</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- navigation bar ens here -->
 
-    <!-- home section start from here -->
-    <section>
-
+    <!-- inner page banner start from here -->
+    <section class="page-banner">
+        <div class="container">
+            <div class="page-banner-content">
+                <div class="sec-title">
+                    <h2>Contact Us</h2>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- home section end here -->
-
+    <!-- inner page banner end here -->
+    <!-- contact form start from here -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div class="gmap">
+                        <iframe src="https://maps.google.com/maps?q=dhaka&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12 offset-md-1">
+                    <div class="form-area">
+                        <form id="contact-form" action="" method="GET">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" required spellcheck="false"
+                                        placeholder="enter your name">
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" required
+                                        placeholder="enter your email address">
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" name="subject" id="subject" spellcheck="true"
+                                        data-ms-editor="true" placeholder="subject">
+                                    <!--  -->
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" rows="6" required="" spellcheck="true"
+                                        data-ms-editor="true" placeholder="place a message"></textarea>
+                                    <button class="ot-btn ot-btn-fill btn-bg-green" type="submit"
+                                        data-text="send">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact form end here -->
     <div class="py-5 text-center">
         <div class="container py-5">
             <div class="row">

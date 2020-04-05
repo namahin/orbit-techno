@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
     var isLateralNavAnimating = false;
   
     //open/close lateral navigation
-    $('.nav-trigger').on('click', function(event) {
+    $('.nav-show').on('click', function (event) {
       event.preventDefault();
       //stop if nav animation is running 
       if (!isLateralNavAnimating) {

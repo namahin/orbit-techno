@@ -833,11 +833,144 @@ header nav {}
     color: #797979;
 }
 
-.service-details-body ol {
+.service-details-body ul {
     margin: 0;
 }
 
-.service-details-body ol li {
+.service-details-body ul li {
     color: #045A5E;
     font-size: 15px;
+}
+
+/* ******************************* */
+/* portfolio section */
+/* ******************************* */
+.sec-img-title {
+    display: table;
+    width: auto;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.sec-img-title img {
+    display: table-cell;
+    height: 32px;
+    position: relative;
+    top: -8px;
+    margin-right: 10px;
+}
+
+.sec-img-title h3 {
+    display: table-cell;
+    margin: 0;
+    line-height: 1;
+}
+
+.last-one {
+    height: 450px;
+}
+
+.last-two {
+    height: 210px;
+}
+
+.last-three {
+    height: 210px;
+}
+
+.portfolio-box {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: linear .3s;
+    background-color: #fafafa;
+    margin-bottom: 30px;
+}
+
+.project-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: linear .3s;
+}
+
+.portfolio-box:hover .project-title {
+    transition: linear .3s;
+    background: #00000080;
+    box-shadow: 0px 0px 100px #606060;
+}
+
+.portfolio-box:hover .project-title h4 {
+    transition: linear .3s;
+    color: #fff;
+}
+
+.portfolio-box:hover .project-title p {
+    transition: linear .3s;
+    color: #fff;
+}
+
+.portfolio-box a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.portfolio-box a img {
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+
+.portfolio-box:hover img {
+    width: 100px;
+}
+
+.project-title h4 {
+    color: #E34C25;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0;
+    transition: linear .3s;
+}
+
+.project-title p {
+    margin: 0;
+    color: #797979;
+    font-size: 12px;
+    transition: linear .3s;
+}
+
+.recent-portfolio {
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px #8080802b;
+    display: block;
+    transition: linear .2s;
+    margin-bottom: 50px;
+}
+
+.recent-portfolio .project-title {
+    background-color: #fafafa;
+}
+
+.recent-portfolio:hover {
+    box-shadow: 0px 2px 10px #8080804b;
+    transition: linear .2s;
 }

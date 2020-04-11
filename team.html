@@ -24,7 +24,6 @@
     <!-- UIkit 3.3.1 -->
     <link rel="stylesheet" href="css/uikit.min.css">
     <!-- theme stylesheet -->
-    <link rel="stylesheet" href="css/toggler.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
@@ -35,24 +34,25 @@
     <div class="top-nav">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-8 col-sm-8">
                     <p>Email: <a href="mailto:mahin0w1@gmail.com">mahin0w1@gmail.com</a> Mobile: <a
                             href="tel:+8801798366057">+8801798366057</a></p>
                 </div>
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-4 col-sm-4">
                     <div class="social-top">
                         <ul>
                             <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fas fa-envelope"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fas fa-phone-alt"></i></a></li>
                             <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg secondary-nav"
+        uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
 
@@ -64,12 +64,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Partners</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="clients.html">Clients</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
                 </ul>
             </div>
         </div>
@@ -77,52 +77,20 @@
     <!-- navigation bar ens here -->
 
     <!-- inner page banner start from here -->
-    <section>
+    <section class="page-banner" style="background-image: url(images/team-bg.jpg);">
         <div class="container">
             <div class="page-banner-content">
                 <div class="sec-title">
-                    <h2>About Us</h2>
-                    <h3 class="pb-5">Know What We Do!</h3>
+                    <h2>Our Team</h2>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- inner page banner end here -->
 
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2 col-sm-12">
-                    <iframe
-                        src="https://www.youtube-nocookie.com/embed/w_sqgaZO2Do?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1"
-                        width="1920" height="1080" frameborder="0" allowfullscreen uk-responsive
-                        uk-video="automute: true"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 offset-md-1 col-sm-12">
-                    <div class="about-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis vitae aliquam
-                            in voluptatibus nulla cum odit error harum provident veniam tenetur fugit adipisci aperiam
-                            sunt sed libero, quibusdam ea?</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- TEAM section start from here  -->
     <section class="team-sec py-5">
-        <div class="container pb-5">
-            <div class="sec-title">
-                <h2>Team</h2>
-                <h3 class="pb-5">Our Strong Team</h3>
-            </div>
+        <div class="container py-5">
             <div class="row pb-5" uk-grid>
                 <div class="col-md-4 col-sm-4">
                     <div class="team-card">
@@ -243,7 +211,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- js files -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>

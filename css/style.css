@@ -782,10 +782,11 @@ header nav {}
 
 .form-area button {
     position: absolute;
-    bottom: 2px;
+    bottom: 0;
     right: 15px;
     border-radius: 0;
     padding: 8px 30px !important;
+    display: inline-block;
 }
 
 .gmap {
@@ -856,14 +857,13 @@ header nav {}
     display: table-cell;
     height: 32px;
     position: relative;
-    top: -8px;
+    /* top: -8px; */
     margin-right: 10px;
 }
 
 .sec-img-title h3 {
     display: table-cell;
     margin: 0;
-    line-height: 1;
 }
 
 .last-one {

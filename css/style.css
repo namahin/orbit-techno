@@ -452,7 +452,9 @@ header {
     position: relative;
     overflow: hidden;
 }
-
+.member-img img{
+    width: 100%;
+}
 .follow-me {
     position: absolute;
     left: 0;

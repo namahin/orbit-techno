@@ -78,6 +78,9 @@
     .social-top ul {
         justify-content: center;
     }
+    .follow-me{
+        bottom: 0;
+    }
 }
 
 /* // Medium devices (tablets, less than 992px) */

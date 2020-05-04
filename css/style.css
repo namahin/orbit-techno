@@ -98,6 +98,17 @@ a:hover {
     background-color: #E34C25;
 }
 
+.page-area {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.navigation {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
 /* *********************************************** */
 /* typography css start end here */
 /* *********************************************** */
@@ -106,7 +117,6 @@ a:hover {
 /* home section start from here */
 .home-sec {
     position: relative;
-    height: 750px;
 }
 
 header {
@@ -120,25 +130,28 @@ header nav {}
 .site-logo a {
     width: 180px;
     display: block;
+    padding: 10px;
+    background: #fff;
+    border-radius: 15px;
+    position: relative;
+    z-index: 3;
 }
 
 .site-logo a img {}
 
-.home {}
+.home {
+    padding-top: 120px;
+}
 
 .home-contant {
-    margin-left: 200px;
-    width: 400px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
+    padding: 150px 0;
 }
 
 .home-contant h1 {
     font-weight: 600;
     font-size: 50px;
     color: #E34C25;
-    line-height: 60px;
+    line-height: 66px;
 }
 
 .home-contant p {
@@ -148,12 +161,19 @@ header nav {}
     margin-bottom: 60px;
 }
 
-.home-contant a {}
+.home-contant a {
+    display: inline-block;
+}
 
-.benner-img {}
+.benner-img {
+    position: relative;
+    padding-top: 50px;
+}
 
 .benner-img img {
-    height: auto;
+    position: absolute;
+    width: 120%;
+    max-width: none;
 }
 
 .object-one {
@@ -186,7 +206,9 @@ header nav {}
     position: relative;
 }
 
-.about-img {}
+.about-img {
+    text-align: center;
+}
 
 .about-img img {}
 
@@ -200,7 +222,9 @@ header nav {}
     font-size: 15px;
 }
 
-.about-content a {}
+.about-content a {
+    display: inline-block;
+}
 
 /* about section end here */
 /*  */
@@ -300,8 +324,8 @@ header nav {}
     height: 270px;
     position: relative;
     overflow: hidden;
-    border: 1px solid #E34C25;
-    /*! border-radius: 3.3px; */
+    border-radius: 12px;
+    background-color: #fafafa;
 }
 
 .portfolio-card:hover {
@@ -310,20 +334,20 @@ header nav {}
 }
 
 .portfolio-label {
-    padding: 10px;
-    background: #E34C25;
-    box-shadow: 1px 3px 3px #115A5E61;
+    padding: 15px 20px;
+    background: #F1F1F1;
+    box-shadow: 1px 3px 5px #1010105c;
     bottom: 20px;
     left: 0;
     position: absolute;
-    width: 75%;
-    /*! border-radius: 0 6px 6px 0; */
+    width: 90%;
+    border-radius: 0 12px 12px 0;
     transition: linear 0.5s;
 }
 
 .portfolio-card h4 {
     font-size: 15px;
-    color: #fff;
+    color: #333;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
@@ -548,9 +572,10 @@ header nav {}
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     white-space: normal;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     overflow: hidden;
     margin: 0;
+    opacity: 0.8;
 }
 
 .blog-items:hover a {
@@ -642,7 +667,7 @@ header nav {}
 }
 
 .top-nav p a:last-child {
-    margin-right: 25px;
+    margin-right: 0px;
 }
 
 .social-top {}
@@ -973,4 +998,84 @@ header nav {}
 .recent-portfolio:hover {
     box-shadow: 0px 2px 10px #8080804b;
     transition: linear .2s;
+}
+
+.orbit-menu {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.orbit-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.orbit-menu ul li {
+    padding: 5px 0;
+}
+
+.orbit-menu ul li a {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-bottom: 5px double transparent;
+    transition: linear .3s;
+}
+
+.orbit-menu ul li a:hover,
+.orbit-menu ul li a:focus {
+    border-bottom: 5px double;
+    transition: linear .3s;
+}
+
+/* Blog details page css */
+.blog-banner {
+    background: #fafafa;
+}
+
+.blog-banner-bg {
+    background-image: url(../images/black-dressed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog-banner-title {
+    max-width: 500px;
+    position: absolute;
+    background: #fafafa;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    padding: 25px 50px;
+}
+
+.blog-banner-title h3 {
+    font-size: 32px;
+    color: #545454;
+    margin-bottom: 9px;
+}
+
+.blog-banner-title h6 {
+    margin: 0;
+    color: #454545;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.blog-details {
+    background: #fafafa;
+}
+
+.blog-details p {
+    color: #454545;
 }

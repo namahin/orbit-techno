@@ -37,6 +37,7 @@ a:hover {
     border-radius: 18px;
     overflow: hidden;
     transition: linear .5s;
+    cursor: pointer;
 }
 
 .ot-btn:hover {
@@ -52,7 +53,6 @@ a:hover {
     transition: linear .5s;
 }
 
-.ot-btn-fill:hover {}
 
 .ot-btn-outline {
     color: #E34C25;
@@ -60,7 +60,6 @@ a:hover {
     border: 1px solid #fff;
 }
 
-.ot-btn-outline:hover {}
 
 .btn-bg-green {
     background: #045A5E;
@@ -92,7 +91,6 @@ a:hover {
     font-weight: 500;
 }
 
-.sec-title p {}
 
 .bg-orange {
     background-color: #E34C25;
@@ -123,10 +121,6 @@ header {
     padding: 25px;
 }
 
-header nav {}
-
-.site-logo {}
-
 .site-logo a {
     width: 180px;
     display: block;
@@ -136,8 +130,6 @@ header nav {}
     position: relative;
     z-index: 3;
 }
-
-.site-logo a img {}
 
 .home {
     padding-top: 120px;
@@ -183,8 +175,6 @@ header nav {}
     left: -30px;
 }
 
-.object-one img {}
-
 .object-two {
     position: absolute;
     width: 70px;
@@ -210,8 +200,6 @@ header nav {}
     text-align: center;
 }
 
-.about-img img {}
-
 .about-content {
     padding-top: 50px;
 }
@@ -232,8 +220,6 @@ header nav {}
 .service-sec {
     position: relative;
 }
-
-.service-items {}
 
 .service-card-outer {
     position: relative;
@@ -313,7 +299,6 @@ header nav {}
 /* service section end here */
 /*  */
 /* PORTFOLIO section start from here  */
-.portfolio-sec {}
 
 .portfolio-card {
     background-image: url(../images/img01.jpg);
@@ -372,8 +357,6 @@ header nav {}
     padding-bottom: 70px;
 }
 
-.client-logo {}
-
 .client-logo ul {
     margin: 0;
     padding: 0;
@@ -409,8 +392,6 @@ header nav {}
     padding-bottom: 70px;
 }
 
-.testimonial-item {}
-
 .testimonial-item img {
     width: 100px;
     height: 100px;
@@ -441,8 +422,6 @@ header nav {}
     font-size: 15px;
 }
 
-.slider {}
-
 .slider .carousel-inner {
     padding-bottom: 50px;
 }
@@ -463,7 +442,6 @@ header nav {}
 /* TESTIMONIALS section end here */
 /*  */
 /* TEAM section start from here */
-.team-sec {}
 
 .team-card {
     padding-bottom: 30px;
@@ -474,8 +452,6 @@ header nav {}
     position: relative;
     overflow: hidden;
 }
-
-.member-img img {}
 
 .follow-me {
     position: absolute;
@@ -508,8 +484,6 @@ header nav {}
     font-size: 18px;
 }
 
-.follow-me ul li a i {}
-
 .team-card h4 {
     margin-top: 15px;
     color: #404040;
@@ -526,7 +500,6 @@ header nav {}
 /* TEAM section end here */
 /*  */
 /* blog section start from here */
-.blog-sec {}
 
 .blog-items {
     margin-bottom: 30px;
@@ -535,8 +508,6 @@ header nav {}
 .blog-tm {
     position: relative;
 }
-
-.blog-tm img {}
 
 .blog-tm p {
     margin: 0;
@@ -549,8 +520,6 @@ header nav {}
     font-size: 12px;
     color: #fff;
 }
-
-.blog-body {}
 
 .blog-body a {
     color: #045A5E;
@@ -583,19 +552,14 @@ header nav {}
     transition: linear .2s;
 }
 
-.footer-content {}
 
 /* blog section end here */
 /* footer section */
-.footer-content {}
-
 .footer-content p {
     color: gray;
     font-size: 15px;
     margin: 0;
 }
-
-.footer-icon {}
 
 .footer-icon ul {
     padding: 0;
@@ -670,8 +634,6 @@ header nav {}
     margin-right: 0px;
 }
 
-.social-top {}
-
 .social-top ul {
     margin: 0;
     list-style: none;
@@ -716,8 +678,6 @@ header nav {}
     box-shadow: 0 2px 5px #b4cecf47;
 }
 
-.secondary-nav ul {}
-
 .secondary-nav ul li a {
     color: #797979;
     font-size: 15px;
@@ -739,8 +699,6 @@ header nav {}
     width: 150px;
     display: block;
 }
-
-.navbar-brand img {}
 
 .navbar-toggler {
     outline: none !important;
@@ -828,10 +786,6 @@ header nav {}
 /* *********************************** */
 /* Services page */
 /* *********************************** */
-.service-page {}
-
-.service-details {}
-
 .service-details-item {
     border-bottom: 1px solid #E34C25;
 }
@@ -851,8 +805,6 @@ header nav {}
     font-weight: 600;
     margin: 0;
 }
-
-.service-details-body {}
 
 .service-details-body p {
     font-size: 15px;

@@ -2,17 +2,22 @@
 @media (max-width: 320px) {}
 
 @media (max-width: 400px) {
-    .client-logo ul li{
+    .client-logo ul li {
         width: 50% !important;
     }
 }
 
 @media (max-width: 575.98px) {
-    .client-logo ul li{
+    .client-logo ul li {
         width: 33.33%;
     }
-    .service-sec{
+
+    .service-sec {
         padding-bottom: 0px !important;
+    }
+
+    .page-banner-content h2 {
+        font-size: 40px !important;
     }
 }
 
@@ -60,9 +65,18 @@
     .sec-title h3 {
         font-size: 26px;
     }
-    .page-banner-content h2{
+
+    .page-banner-content h2 {
         top: 50%;
         text-align: left;
+    }
+
+    .top-nav {
+        text-align: center;
+    }
+
+    .social-top ul {
+        justify-content: center;
     }
 }
 
@@ -87,8 +101,15 @@
     .object-one {
         display: none;
     }
-    .secondary-nav ul{padding-top: 30px;}
-    .secondary-nav ul li a{padding: 10px;border-bottom: 1px solid aliceblue;}
+
+    .secondary-nav ul {
+        padding-top: 30px;
+    }
+
+    .secondary-nav ul li a {
+        padding: 10px;
+        border-bottom: 1px solid aliceblue;
+    }
 
 }
 
